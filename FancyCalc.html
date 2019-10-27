@@ -1,0 +1,54 @@
+<html>
+<body>
+	<h1> The Fancy Calculator </h1>
+	<br>
+	
+	<script>
+		function myFunction(){
+			var x = eval(Calculation.Number1.value) + 0;
+			var y = eval(Calculation.Number2.value) + 0;
+			var sign = Calculation.sign.value;
+
+			if(sign == '+'){
+				z = x + y;
+				alert("The result is " + z);
+			}
+
+			if(sign == '-'){
+				z = x - y;
+				alert("The result is " + z);
+			}
+
+			if(sign == '*'){
+				z = x * y;
+				alert("The result is " + z);
+			}
+
+			if (sign == "/"){
+				if(y == 0)
+					alert("Error! Can't divide by zero");
+				else{
+					z = x / y;
+					alert("The result is " + z);
+				}
+			}
+		}
+	</script>
+	
+	<form name= Calculation onSubmit = "myFunction()">
+		<input type = "text" name= "Number1">
+
+		<select id ="sign">
+			<option value="+"> + </option>	
+			<option value="-"> - </option>
+			<option value="*"> * </option>
+			<option value="/"> / </option>
+		</select>
+	
+		<input type = "text" name= "Number2">
+		<input type = "submit" value = "Submit">
+	</form>
+
+
+</body>
+</html>
