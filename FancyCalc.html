@@ -11,17 +11,17 @@
 
 			if(sign == '+'){
 				z = x + y;
-				alert("The result is " + z);
+				Calculation.result.value = z;
 			}
 
 			if(sign == '-'){
 				z = x - y;
-				alert("The result is " + z);
+				Calculation.result.value = z;
 			}
 
 			if(sign == '*'){
 				z = x * y;
-				alert("The result is " + z);
+				Calculation.result.value = z;
 			}
 
 			if (sign == "/"){
@@ -29,13 +29,13 @@
 					alert("Error! Can't divide by zero");
 				else{
 					z = x / y;
-					alert("The result is " + z);
+					Calculation.result.value = z;
 				}
 			}
 		}
 	</script>
 	
-	<form name= Calculation onSubmit = "myFunction()">
+	<form name= Calculation>
 		<input type = "text" name= "Number1">
 
 		<select id ="sign">
@@ -45,8 +45,9 @@
 			<option value="/"> / </option>
 		</select>
 	
-		<input type = "text" name= "Number2">
-		<input type = "submit" value = "Submit">
+		<input type = "text" name= "Number2"> 
+		<button type ='button' onclick="myFunction()"> = </button>
+		<input type="text" name="result">
 	</form>
 
 
