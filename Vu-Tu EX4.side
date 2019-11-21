@@ -1,0 +1,567 @@
+{
+  "id": "1df1061f-6e64-4da8-a59e-a5ec9cc018d8",
+  "version": "2.0",
+  "name": "Vu-Tu Exercise 4",
+  "url": "http://web.cecs.pdx.edu/~cgi_web/F/game.html",
+  "tests": [{
+    "id": "e4e2b889-73bf-4718-bb6a-3c911b95e3e7",
+    "name": "TC 1",
+    "commands": [{
+      "id": "8a1c660f-ca91-4bce-b9ea-5a16c4fe46b1",
+      "comment": "",
+      "command": "open",
+      "target": "/~cgi_web/F/game.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2d6835d-1a35-4c88-a46f-6ad25602e833",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84e235e5-16a5-4f00-81ab-7bebfb782d80",
+      "comment": "Moving North for the first time",
+      "command": "click",
+      "target": "id=energy",
+      "targets": [
+        ["id=energy", "id"],
+        ["css=#energy", "css:finder"],
+        ["xpath=//input[@id='energy']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "99"
+    }, {
+      "id": "aacbcbbc-cfc7-483a-b6a2-860cb87e58e2",
+      "comment": "Moving North for the second time",
+      "command": "click",
+      "target": "id=location",
+      "targets": [
+        ["id=location", "id"],
+        ["css=#location", "css:finder"],
+        ["xpath=//input[@id='location']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "14,12"
+    }]
+  }, {
+    "id": "8a003d0c-e0bb-4473-827c-22ec17451725",
+    "name": "TC 2",
+    "commands": [{
+      "id": "f1461b30-810f-4dd1-8b90-988739c1d639",
+      "comment": "",
+      "command": "open",
+      "target": "http://web.cecs.pdx.edu/~cgi_web/F/game.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e672c8b8-fbe1-43ae-b389-63cfab6b04d1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa5a8005-427b-4d0e-a809-769575a82cf7",
+      "comment": "Moving South for the first time",
+      "command": "click",
+      "target": "id=energy",
+      "targets": [
+        ["id=energy", "id"],
+        ["css=#energy", "css:finder"],
+        ["xpath=//input[@id='energy']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "99"
+    }, {
+      "id": "5f02cb07-6659-49de-a82b-3c59a8c9bce6",
+      "comment": "Moving South for the second time",
+      "command": "click",
+      "target": "id=location",
+      "targets": [
+        ["id=location", "id"],
+        ["css=#location", "css:finder"],
+        ["xpath=//input[@id='location']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "10,12"
+    }]
+  }, {
+    "id": "153ed594-a46c-4fcf-b6c8-17006eb32416",
+    "name": "TC 3",
+    "commands": [{
+      "id": "81ad173e-689d-447c-971e-ac9b425aca06",
+      "comment": "",
+      "command": "open",
+      "target": "http://web.cecs.pdx.edu/~cgi_web/F/game.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "659d6458-359c-4d47-b9f5-2165d8122dde",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83ae9735-67ed-4a19-acb8-d76a712ef44d",
+      "comment": "",
+      "command": "click",
+      "target": "id=energy",
+      "targets": [
+        ["id=energy", "id"],
+        ["css=#energy", "css:finder"],
+        ["xpath=//input[@id='energy']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8dc462b1-af1d-4e4b-9c03-12af23863c5b",
+      "comment": "Setting Energy to 500",
+      "command": "type",
+      "target": "id=energy",
+      "targets": [
+        ["id=energy", "id"],
+        ["css=#energy", "css:finder"],
+        ["xpath=//input[@id='energy']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "500"
+    }, {
+      "id": "41c742b4-e2b3-48b9-8c8a-46ebd412b5ce",
+      "comment": "Energy deduce by 1",
+      "command": "click",
+      "target": "id=energy",
+      "targets": [
+        ["id=energy", "id"],
+        ["css=#energy", "css:finder"],
+        ["xpath=//input[@id='energy']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "499"
+    }]
+  }, {
+    "id": "45fdd280-c85f-43ea-9119-a536efe8a689",
+    "name": "TC 4",
+    "commands": [{
+      "id": "32ae11ec-8b41-4597-8e71-279684f63a8d",
+      "comment": "",
+      "command": "open",
+      "target": "http://web.cecs.pdx.edu/~cgi_web/F/game.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c727ea4-8a31-473d-aa63-af0d9964a790",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39cb9147-b2fd-4a94-ba49-e27e21b4ee05",
+      "comment": "Setting the location",
+      "command": "click",
+      "target": "id=location",
+      "targets": [
+        ["id=location", "id"],
+        ["css=#location", "css:finder"],
+        ["xpath=//input[@id='location']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58efeea5-18a4-415b-8d2d-90f23d6f7258",
+      "comment": "Enter a bog",
+      "command": "type",
+      "target": "id=location",
+      "targets": [
+        ["id=location", "id"],
+        ["css=#location", "css:finder"],
+        ["xpath=//input[@id='location']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2,5"
+    }, {
+      "id": "2f2ba402-3a58-40d5-a485-cc9f2a950ea4",
+      "comment": "Currently in a bog",
+      "command": "click",
+      "target": "id=energy",
+      "targets": [
+        ["id=energy", "id"],
+        ["css=#energy", "css:finder"],
+        ["xpath=//input[@id='energy']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "98"
+    }]
+  }, {
+    "id": "76f01bbb-6f9b-45fd-9251-d883260d7a94",
+    "name": "TC 5",
+    "commands": [{
+      "id": "afd71018-055d-40ae-8cba-a0dc0bd9e7db",
+      "comment": "",
+      "command": "open",
+      "target": "http://web.cecs.pdx.edu/~cgi_web/F/game.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2b9982f-8118-4f63-9314-1d67ba59d3b8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1eb5f07-7418-4f16-92f4-7d8ed90474d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dba3fa3f-d988-4588-b4c0-19211acb4d53",
+      "comment": "Setting location",
+      "command": "type",
+      "target": "id=location",
+      "targets": [
+        ["id=location", "id"],
+        ["css=#location", "css:finder"],
+        ["xpath=//input[@id='location']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "7,0"
+    }, {
+      "id": "3e7c7e3c-fef2-4f36-bcfa-0b6777fbc6b8",
+      "comment": "Move",
+      "command": "click",
+      "target": "css=tr:nth-child(3) button",
+      "targets": [
+        ["css=tr:nth-child(3) button", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'SOUTH')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "57c1bc2d-e569-4957-aa3f-61b64a97e18d",
+      "comment": "Check whiffles",
+      "command": "click",
+      "target": "id=whiffles",
+      "targets": [
+        ["id=whiffles", "id"],
+        ["css=#whiffles", "css:finder"],
+        ["xpath=//input[@id='whiffles']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "100"
+    }]
+  }, {
+    "id": "de7a5c37-84a9-45cc-a291-0e71bb46ec7e",
+    "name": "TC 6",
+    "commands": [{
+      "id": "b9534821-7bb0-466b-a114-98667e131125",
+      "comment": "",
+      "command": "open",
+      "target": "http://web.cecs.pdx.edu/~cgi_web/F/game.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6d0ee37-40ac-426c-a449-fea890d70944",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c2d99d4-9939-4e34-b14d-437f1daeb7c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "312983da-d1bf-49f7-ab52-380c992e6994",
+      "comment": "Setting energy to 1",
+      "command": "type",
+      "target": "id=energy",
+      "targets": [
+        ["id=energy", "id"],
+        ["css=#energy", "css:finder"],
+        ["xpath=//input[@id='energy']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "a0417a66-785a-4721-a189-4bc4632833e1",
+      "comment": "Reset the energy",
+      "command": "click",
+      "target": "id=energy",
+      "targets": [
+        ["id=energy", "id"],
+        ["css=#energy", "css:finder"],
+        ["xpath=//input[@id='energy']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "100"
+    }]
+  }, {
+    "id": "8ae21e3d-97d9-46da-b67d-df6b47e1f83d",
+    "name": "TC 7",
+    "commands": [{
+      "id": "5da68ab5-bbf7-4a48-9db7-3b6478fb1243",
+      "comment": "",
+      "command": "open",
+      "target": "http://web.cecs.pdx.edu/~cgi_web/F/game.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1fd1d95-d3f4-48a3-96df-a75e6e72a723",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4330726-369d-451a-b80d-88fea0b653a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d5071bb-df9b-4f40-8a4a-e8b7e1a9af08",
+      "comment": "Change location",
+      "command": "type",
+      "target": "id=location",
+      "targets": [
+        ["id=location", "id"],
+        ["css=#location", "css:finder"],
+        ["xpath=//input[@id='location']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "25,25"
+    }, {
+      "id": "d55ad792-4ef0-4174-9b6d-08badb278bf9",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(3) > button",
+      "targets": [
+        ["css=td:nth-child(3) > button", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//td[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'EAST')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aeee0964-9095-4773-8e75-fc5a2865e746",
+      "comment": "Reset the location after click",
+      "command": "click",
+      "target": "id=location",
+      "targets": [
+        ["id=location", "id"],
+        ["css=#location", "css:finder"],
+        ["xpath=//input[@id='location']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "12,12"
+    }]
+  }, {
+    "id": "bd087d4e-c056-47ff-ad6b-7936084b25aa",
+    "name": "TC 8",
+    "commands": [{
+      "id": "d95a7b81-918e-4e1b-b6c4-6fe85d20b712",
+      "comment": "",
+      "command": "open",
+      "target": "http://web.cecs.pdx.edu/~cgi_web/F/game.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2641e0ac-8e77-4d8a-95b2-e5fe45b6cb1b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f2887d1-6c58-456c-844f-1cb43792df45",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6b53e59-5832-4512-a3c4-a1d24ea8d2d9",
+      "comment": "Move location",
+      "command": "type",
+      "target": "id=location",
+      "targets": [
+        ["id=location", "id"],
+        ["css=#location", "css:finder"],
+        ["xpath=//input[@id='location']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1,6"
+    }, {
+      "id": "02bbc9cd-a9c5-4931-bb53-6e37535ba001",
+      "comment": "Step in Bog",
+      "command": "click",
+      "target": "id=whiffles",
+      "targets": [
+        ["id=whiffles", "id"],
+        ["css=#whiffles", "css:finder"],
+        ["xpath=//input[@id='whiffles']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "100"
+    }]
+  }, {
+    "id": "38e3e19b-8e8d-477b-94c3-d98cb70997a8",
+    "name": "TC 9",
+    "commands": [{
+      "id": "507ccbbb-ac87-4f25-ba03-d700f2219ce9",
+      "comment": "",
+      "command": "open",
+      "target": "http://web.cecs.pdx.edu/~cgi_web/F/game.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83b18a69-e516-4f9b-a619-1b7fbd00e9f1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd95a88d-fc83-4c0e-b657-d319af46f943",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc07f31a-2298-480d-97a3-9c3feda0d6f5",
+      "comment": "Set starting location",
+      "command": "type",
+      "target": "id=location",
+      "targets": [
+        ["id=location", "id"],
+        ["css=#location", "css:finder"],
+        ["xpath=//input[@id='location']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "18,19"
+    }, {
+      "id": "6c573e2a-740c-4ef8-8860-41443d506879",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8762156-fb47-4464-af59-034ac071f09d",
+      "comment": "Alter energy level",
+      "command": "type",
+      "target": "id=energy",
+      "targets": [
+        ["id=energy", "id"],
+        ["css=#energy", "css:finder"],
+        ["xpath=//input[@id='energy']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "a7b09e0e-7ac9-4438-a805-e8389f3d2179",
+      "comment": "Verify the location after death",
+      "command": "click",
+      "target": "id=location",
+      "targets": [
+        ["id=location", "id"],
+        ["css=#location", "css:finder"],
+        ["xpath=//input[@id='location']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "12,12"
+    }]
+  }, {
+    "id": "f63b1033-1c7a-4797-8a22-50c8e24e2854",
+    "name": "TC 10",
+    "commands": [{
+      "id": "adc5c99c-27e2-436a-a1e2-e66849d47e75",
+      "comment": "",
+      "command": "open",
+      "target": "http://web.cecs.pdx.edu/~cgi_web/F/game.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e545b2dc-f5da-43a9-9375-031d68b626a6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59836452-0250-48c7-95d9-0c65513b95e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6b5af01-442d-44d3-a0c0-220a58b7ec81",
+      "comment": "Set location to boundary",
+      "command": "type",
+      "target": "id=location",
+      "targets": [
+        ["id=location", "id"],
+        ["css=#location", "css:finder"],
+        ["xpath=//input[@id='location']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "25,25"
+    }, {
+      "id": "fb466962-7bcf-4bfc-9f32-2e7a9000e03c",
+      "comment": "Step out of bound and check whiffle",
+      "command": "click",
+      "target": "id=whiffles",
+      "targets": [
+        ["id=whiffles", "id"],
+        ["css=#whiffles", "css:finder"],
+        ["xpath=//input[@id='whiffles']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "100"
+    }]
+  }],
+  "suites": [{
+    "id": "4aef4a9d-29c9-4001-9b58-2a1998e5a4a9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e4e2b889-73bf-4718-bb6a-3c911b95e3e7"]
+  }],
+  "urls": ["http://web.cecs.pdx.edu/", "http://web.cecs.pdx.edu/~cgi_web/F/game.html"],
+  "plugins": []
+}
